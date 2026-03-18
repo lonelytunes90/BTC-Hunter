@@ -70,5 +70,6 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "To start the hunter, use these commands:"
 echo -e "${YELLOW}source venv/bin/activate${NC} (Linux/Mac/Termux)"
 echo -e "${YELLOW}venv\Scripts\activate${NC} (Windows)"
-echo -e "${CYAN}python btc_hunter.py --threads 8${NC}"
+echo -e "${CYAN}python generator.py --count 100${NC}"
+echo -e "${CYAN}python main.py --threads 8${NC}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
