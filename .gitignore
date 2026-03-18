@@ -1,8 +1,28 @@
-venv/
+# --- Python Specific ---
 __pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+
+# --- Large Data Files (IMPORTANT) ---
+# This prevents the 100MB+ error you had earlier
+*.txt
+*.log
+*.csv
+*.json
+keys/
+data/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Specific Project Files ---
 found.txt
 processed.log
 list.txt
-*.txt
-venv/
-__pycache__/
+keys.txt
